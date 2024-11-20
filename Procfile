@@ -1,3 +1,3 @@
 
-worker: node mefre.js 
+worker: node body.js 
 
