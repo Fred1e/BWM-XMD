@@ -1,17 +1,17 @@
 
 const util = require('util');
 const fs = require('fs-extra');
-const { adams } = require(__dirname + "/../Ibrahim/adams");
-const { format } = require(__dirname + "/../Ibrahim/mesfonctions");
+const { ezra } = require(__dirname + "/../fredi/ezra");
+const { format } = require(__dirname + "/../fredi/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../config");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-adams({ nomCom: "cmd", categorie: "General" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "cmd", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-    let { cm } = require(__dirname + "/../Ibrahim//adams");
+    let { cm } = require(__dirname + "/../fredi//ezra");
     var coms = {};
     var mode = "public";
     
@@ -28,7 +28,7 @@ adams({ nomCom: "cmd", categorie: "General" }, async (dest, zk, commandeOptions)
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Africa/Nairobi");
+    moment.tz.setDefault("Africa/Arusha");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
@@ -37,11 +37,11 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
   *Hey🖐️* *${nomAuteurMessage}*
   
-  *BMW MD IS RUNNING WITH [${cm.length}0] COMMANDS*
+  *LUCKY MD IS RUNNING WITH [${cm.length}0] COMMANDS*
 
   *More commands will be out soon*
  
-  🚘🚘🚘
+  🤍🤍🤍
  `;
     
 let menuMsg = `
@@ -49,14 +49,14 @@ let menuMsg = `
 > 📅 ᴅᴀᴛᴇ: ${date} 
 
 
-> Made by : ©Ibrahim Adams 
+> Made by : ©fredi ezra 
 `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *adams*, déveloper adams Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ezra*, déveloper ezra Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -66,7 +66,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *adams*, déveloper adams Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ezra*, déveloper ezra Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -118,19 +118,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *BMW MD IMPORTANT INFO* 
+   *LUCKY MD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/ibrahimaitech/BMW-MD
+> https://github.com/Fred1e/Lucky_Md
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
+> https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f 
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠
+> https://github.com/Fred1e
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *Ibrahim Adams*
+│❒⁠⁠⁠⁠ *DEV* : *Fredi Ezra*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
