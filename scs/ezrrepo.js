@@ -4,14 +4,14 @@ Object.defineProperty(exports, '__esModule', {
   'value': true
 });
 const {
-  adams
-} = require("../Ibrahim/adams");
-adams({
+  ezra
+} = require("../fredi/ezra");
+ezra({
   'nomCom': "repo",
   'reaction': '📂',
   'nomFichier': __filename
 }, async (_0x256950, _0x3cdb38, _0x2c604e) => {
-  const _0x2f4eff = await fetch('https://api.github.com/repos/devibraah/BWM-XMD');
+  const _0x2f4eff = await fetch('https://api.github.com/repos/Fred1e/Lucky_Md');
   const _0x36b130 = await _0x2f4eff.json();
   if (_0x36b130) {
     const _0x50985d = {
@@ -20,7 +20,7 @@ adams({
       'lastUpdate': _0x36b130.updated_at,
       'owner': _0x36b130.owner.login
     };
-    const _0x20cf11 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *BMW-MD*\n📝 Last Update: " + _0x50985d.lastUpdate + "\n👤 Owner: *Ibrahim Adams*\n⭐ Stars: " + _0x50985d.stars + "\n🍴 Forks: " + _0x50985d.forks + "\n🌐 Repo: " + _0x36b130.html_url + "\n⭕ For More Info : https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠\n";
+    const _0x20cf11 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *LUCKU-MD*\n📝 Last Update: " + _0x50985d.lastUpdate + "\n👤 Owner: *Fredi Ezra*\n⭐ Stars: " + _0x50985d.stars + "\n🍴 Forks: " + _0x50985d.forks + "\n🌐 Repo: " + _0x36b130.html_url + "\n⭕ For More Info : https://github.com/Fred1e\n";
     await _0x3cdb38.sendMessage(_0x256950, {
       'image': {
         'url': "https://telegra.ph/file/17c83719a1b40e02971e4.jpg"
@@ -32,12 +32,12 @@ adams({
   }
 });
 
-adams({
+ezra({
   'nomCom': "git",
   'reaction': '📂',
   'nomFichier': __filename
 }, async (_0x2ad97e, _0xc5957d, _0x2a01f1) => {
-  const _0x23b84a = await fetch("https://api.github.com/repos/devibraah/BWM-XMD");
+  const _0x23b84a = await fetch("https://api.github.com/repos/Fred1e/Lucky_Md");
   const _0x54f98d = await _0x23b84a.json();
   if (_0x54f98d) {
     const _0x33ab65 = {
@@ -46,7 +46,7 @@ adams({
       'lastUpdate': _0x54f98d.updated_at,
       'owner': _0x54f98d.owner.login
     };
-    const _0x305ae3 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *BMW-MD*\n📝 Last Update: " + _0x33ab65.lastUpdate + "\n👤 Owner: *Ibrahim Adams*\n⭐ Stars: " + _0x33ab65.stars + "\n🍴 Forks: " + _0x33ab65.forks + "\n🌐 Repo: " + _0x54f98d.html_url + "\n⭕ For More Info : https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS";
+    const _0x305ae3 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *LUCKY-MD*\n📝 Last Update: " + _0x33ab65.lastUpdate + "\n👤 Owner: *Fredi Ezra*\n⭐ Stars: " + _0x33ab65.stars + "\n🍴 Forks: " + _0x33ab65.forks + "\n🌐 Repo: " + _0x54f98d.html_url + "\n⭕ For More Info : https://github.com/Fred1e";
     await _0xc5957d.sendMessage(_0x2ad97e, {
       'image': {
         'url': "https://telegra.ph/file/17c83719a1b40e02971e4.jpg"
@@ -57,12 +57,12 @@ adams({
     console.log("Could not fetch data");
   }
 });
-adams({
+ezra({
   'nomCom': 'sc',
   'reaction': '📂',
   'nomFichier': __filename
 }, async (_0x1f8a03, _0x41191c, _0x8dd7fa) => {
-  const _0x21464f = await fetch("https://api.github.com/repos/devibraah/BWM-XMD");
+  const _0x21464f = await fetch("https://api.github.com/repos/Fred1e/Lucky_Md");
   const _0x3fb866 = await _0x21464f.json();
   if (_0x3fb866) {
     const _0x4bac21 = {
@@ -71,7 +71,7 @@ adams({
       'lastUpdate': _0x3fb866.updated_at,
       'owner': _0x3fb866.owner.login
     };
-    const _0x58e2e9 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *BMW-MD*\n📝 Last Update: " + _0x4bac21.lastUpdate + "\n👤 Owner: *Ibrahim Adams*\n⭐ Stars: " + _0x4bac21.stars + "\n🍴 Forks: " + _0x4bac21.forks + "\n🌐 Repo: " + _0x3fb866.html_url + "\n⭕ For More Info : https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠\n";
+    const _0x58e2e9 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *LUCKY-MD*\n📝 Last Update: " + _0x4bac21.lastUpdate + "\n👤 Owner: *Fredi Ezra*\n⭐ Stars: " + _0x4bac21.stars + "\n🍴 Forks: " + _0x4bac21.forks + "\n🌐 Repo: " + _0x3fb866.html_url + "\n⭕ For More Info : https://github.com/Fred1e⁠\n";
     await _0x41191c.sendMessage(_0x1f8a03, {
       'image': {
         'url': "https://telegra.ph/file/17c83719a1b40e02971e4.jpg"
@@ -82,12 +82,12 @@ adams({
     console.log("Could not fetch data");
   }
 });
-adams({
+ezra({
   'nomCom': 'script',
   'reaction': '📂',
   'nomFichier': __filename
 }, async (_0x44e4c9, _0x300ccb, _0x323299) => {
-  const _0x10746e = await fetch("https://api.github.com/repos/devibraah/BWM-XMD");
+  const _0x10746e = await fetch("https://api.github.com/repos/Fred1e/Lucky_Md");
   const _0x40fb34 = await _0x10746e.json();
   if (_0x40fb34) {
     const _0x4777ba = {
@@ -96,7 +96,7 @@ adams({
       'lastUpdate': _0x40fb34.updated_at,
       'owner': _0x40fb34.owner.login
     };
-    const _0x338973 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *BMW-MD*\n📝 Last Update: " + _0x4777ba.lastUpdate + "\n👤 Owner: *Ibrahim Adams*\n⭐ Stars: " + _0x4777ba.stars + "\n🍴 Forks: " + _0x4777ba.forks + "\n🌐 Repo: " + _0x40fb34.html_url + "\n⭕ For More Info : https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠\n";
+    const _0x338973 = "𝐁𝐌𝐖 𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐈𝐁𝐑𝐀𝐇𝐈𝐌 𝐀𝐃𝐀𝐌𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *LUCKY-MD*\n📝 Last Update: " + _0x4777ba.lastUpdate + "\n👤 Owner: *Fredi Ezra*\n⭐ Stars: " + _0x4777ba.stars + "\n🍴 Forks: " + _0x4777ba.forks + "\n🌐 Repo: " + _0x40fb34.html_url + "\n⭕ For More Info : https://github.com/Fred1e⁠\n";
     await _0x300ccb.sendMessage(_0x44e4c9, {
       'image': {
         'url': "https://telegra.ph/file/17c83719a1b40e02971e4.jpg"
