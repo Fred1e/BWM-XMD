@@ -1,6 +1,6 @@
 
 {
-  "name": "Bwm-xmd",
+  "name": "lucky_md",
   "version": "2.0.0",
   "description": "",
   "main": "body.js",
@@ -9,19 +9,19 @@
     "test": "node body.js",
     "s": "node body.js",
     "body": "pm2 start body.js --attach",
-    "xmd": "pm2 start xmd.js --attach",
+    "frediezra": "pm2 start frediezra.js --attach",
     "c": "tsc",
     "start": "node body.js" 
   },
   "keywords": [
     "bot",
     "Baileys",
-    "bmw",
+    "lucky",
     "whatsapp",
     "whatsapp-bot",
-    "Ibrahim-Adams"
+    "Fredi-Ezra"
   ],
-  "author": "Ibrahim Adams",
+  "author": "Fredi Ezra",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
